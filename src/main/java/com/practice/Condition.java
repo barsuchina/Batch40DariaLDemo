@@ -7,7 +7,7 @@ public class Condition {
 			System.out.println("It is Dasha");
 			
 		}	else if(name.contains("G")) {
-				System.out.println("It is George");
+				System.out.println("It is not");
 			
 		} else {
 			System.out.println("Not Dasha");
@@ -19,7 +19,7 @@ public class Condition {
 	public static void main(String[] args) {
 		Condition obj = new Condition();
 		obj.getCondition ("mmm");
-		obj.getCondition ("George");
+		obj.getCondition ("Brother");
 		obj.getCondition ("jsghdfuvksgd");
 		obj.getCondition ("Daria");
 	}
