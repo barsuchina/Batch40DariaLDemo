@@ -38,6 +38,15 @@ public class MasterPageFactory {
 	@FindBy(xpath="(//*[text()='Bottled Water Delivery'])[2]")
 	private WebElement bottledWaterDelivery_bus;
 	
+	@FindBy(xpath="//*[text()=' Logout']")
+	private WebElement Logoutbtn;
+	
+	
+	public WebElement getLogoutbtn() {
+		return Logoutbtn;
+	}
+
+	
 	
 	public WebElement getAlertBtn2() {
 		return alertBtn2;

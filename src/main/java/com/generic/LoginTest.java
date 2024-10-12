@@ -61,10 +61,10 @@ public class LoginTest {
 		}
 			
 			//screenshot
-		Screenshot.getScreenShot(driver, "aaa");
+		//Screenshot.getScreenShot(driver, "aaa");
 			
 			
-			driver.quit();
+			//driver.quit();
 			
 		
 		

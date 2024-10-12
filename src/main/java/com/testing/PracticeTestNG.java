@@ -14,7 +14,7 @@ public class PracticeTestNG {
 		System.out.println("search");
 	}
 	
-	@Test(priority=1)
+	@Test(priority=1, dependsOnMethods = {"getLogin"})
 	public void getCart() {
 		System.out.println("cart");
 	}
